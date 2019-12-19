@@ -30,3 +30,9 @@ export default {
   name: "footer"
 };
 </script>
+
+<style scoped>
+footer {
+    background-image: url(../../assets/img/footer.svg);
+}
+</style>
