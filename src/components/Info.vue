@@ -13,7 +13,7 @@
         <input type="text" placeholder="Nhập số điện thoại" class="phone info" v-model="phone" />
         <p class="info">Địa chỉ nhận hàng</p>
         <input type="text" placeholder="Nhập địa chỉ nhận hàng" class="add info" v-model="address" />
-        
+
         <!-- use-vue-select -->
         <p class="info">Mẫu áo</p>
         <div class="row">
@@ -77,15 +77,13 @@ export default {
       phone: "",
       address: "",
       girlSize: "",
-      girlQty:"",
+      girlQty: "",
       boySize: "",
-      boyQty:""
+      boyQty: ""
     };
   },
-  methods:{
-      order(){
-
-      }
+  methods: {
+    order() {}
   }
 };
 </script>
