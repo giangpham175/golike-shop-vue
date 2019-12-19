@@ -11,7 +11,7 @@
         </p>
       </div>
       <div class="col-md-5 pay">
-        <img src="./assets/img/pay.svg" style="width: 100%" />
+        <img src="@/assets/img/pay.svg" style="width: 100%" />
       </div>
     </div>
   </div>

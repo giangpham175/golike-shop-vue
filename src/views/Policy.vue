@@ -28,7 +28,7 @@
         </p>
       </div>
       <div class="col-md-6 policy d-flex align-items-center justify-content-center">
-        <img src="./assets/img/policy.svg" alt class="policy" />
+        <img src="@/assets/img/policy.svg" alt class="policy" />
       </div>
     </div>
     <div class="row policy">
