@@ -18,7 +18,7 @@
         <p class="info">Mẫu áo</p>
         <div class="row">
           <div class="col-md-6">
-            <input type="checkbox" name id /> &nbsp;&nbsp; Mẫu 1 (Nữ)
+            <input type="checkbox" v-model="girlCheck" /> &nbsp;&nbsp; Mẫu 1 (Nữ)
             <div class="form-group">
               <label for="size">Size</label>
               <select class="form-control" id="size" v-model="girlSize">
@@ -38,7 +38,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <input type="checkbox" name id /> &nbsp;&nbsp; Mẫu 2 (Nam)
+            <input type="checkbox" v-model="boyCheck" /> &nbsp;&nbsp; Mẫu 2 (Nam)
             <div class="form-group">
               <label for="size">Size</label>
               <select class="form-control" id="size" v-model="boySize">
@@ -76,8 +76,10 @@ export default {
       name: "",
       phone: "",
       address: "",
+      girlCheck: false,
       girlSize: "",
       girlQty: "",
+      boyCheck: false,
       boySize: "",
       boyQty: ""
     };
