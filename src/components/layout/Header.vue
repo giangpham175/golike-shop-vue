@@ -25,20 +25,26 @@
 
       <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
         <ul class="navbar-nav mt-2 mt-lg-0 text-center">
-          <li class="nav-item">
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <router-link class="nav-link" tag="a" to="/policy">Chính sách bảo mật</router-link>
             <!-- <a class="nav-link" href>Chính sách bảo mật</a> -->
           </li>
-          <li class="nav-item">
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <router-link class="nav-link" tag="a" to="/pay">Thanh toán</router-link>
             <!-- <a class="nav-link" href>Thanh toán</a> -->
           </li>
-          <li class="nav-item">
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <router-link class="nav-link" tag="a" to="/regulation">Quy định</router-link>
             <!-- <a class="nav-link" href>Quy định</a> -->
           </li>
-          <li class="nav-item buy">
-            <a class="nav-link buy" href>Mua ngay</a>
+          <li class="nav-item buy" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <router-link
+              class="nav-link buy"
+              tag="a"
+              to="/"
+              v-scroll-to="{ el: '#info-order' }"
+            >Mua ngay</router-link>
+            <!-- <a class="nav-link buy" href>Mua ngay</a> -->
           </li>
         </ul>
       </div>
