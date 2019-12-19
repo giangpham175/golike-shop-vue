@@ -5,11 +5,11 @@
       <div class="col-12 col-md-6 girl text-center">
         <div class="row img-main left">
           <div class="img-main col-12 col-md-7" style="padding: 0px;">
-            <img src="./assets/img/order/style-1a.svg" alt class="s-main" />
+            <img src="@/assets/img/order/style-1a.svg" alt class="s-main" />
           </div>
           <div class="img-main col-6 col-md-5" style="padding: 0px;">
-            <img src="./assets/img/order/style-1b.svg" alt class="sb-main" />
-            <img src="./assets/img/order/style-1c.svg" alt class="sb-main" />
+            <img src="@/assets/img/order/style-1b.svg" alt class="sb-main" />
+            <img src="@/assets/img/order/style-1c.svg" alt class="sb-main" />
           </div>
         </div>
         <div class="d-flex price-l">
@@ -24,11 +24,11 @@
       <div class="col-12 col-md-6 boy text-center">
         <div class="row img-main right">
           <div class="img-main col-12 col-md-7" style="padding: 0px;">
-            <img src="./assets/img/order/style-2a.svg" alt class="s-main" />
+            <img src="@/assets/img/order/style-2a.svg" alt class="s-main" />
           </div>
           <div class="img-main col-6 col-md-5" style="padding: 0px;">
-            <img src="./assets/img/order/style-2b.svg" alt class="sb-main" />
-            <img src="./assets/img/order/style-2c.svg" alt class="sb-main" />
+            <img src="@/assets/img/order/style-2b.svg" alt class="sb-main" />
+            <img src="@/assets/img/order/style-2c.svg" alt class="sb-main" />
           </div>
         </div>
         <div class="d-flex price-r">
