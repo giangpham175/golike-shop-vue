@@ -209,6 +209,10 @@ p.regulation {
     padding: 70px 0px;
 }
 
+.choose-size {
+    margin: 20px 0px;
+}
+
 h1.main.text-center {
     padding: 0px 0px 45px 0px;
     color: #0084F8;
@@ -239,6 +243,10 @@ thead.size {
 
 
 /* choose-order */
+
+.choose-order {
+    margin: 20px 0px;
+}
 
 img.s-main {
     height: 528px;
@@ -284,6 +292,10 @@ button.btn.boy {
 
 
 /* order-info */
+
+.order-info {
+    margin: 20px 0px;
+}
 
 .row.order-info {
     background: linear-gradient(81.63deg, #FD3F36 9.02%, #FDE259 90.81%);
@@ -372,7 +384,7 @@ form.oder-info {
         font-size: 7px;
     }
     .row.main-banner.justify-content-center {
-        margin: 0px 10px;
+        margin: 10px;
     }
     /* size */
     table.table.table-bordered.text-center {
@@ -472,6 +484,6 @@ form.oder-info {
     }
     /* footer */
     .container.footer {
-        padding-top: 90%;
+        padding-top: 80%;
     }
 }
