@@ -1,5 +1,5 @@
 <template>
-    <div class="order-info">
+    <div id="info-order" class="order-info">
     <h1 class="main text-center">THÔNG TIN ĐẶT HÀNG</h1>
     <div class="row order-info">
         <div class="col-12 col-md-4 l">

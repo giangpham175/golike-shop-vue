@@ -18,7 +18,7 @@
           </div>
           <div class="p-2 sale">Giá 80.000 vnđ</div>
         </div>
-        <button type="button" class="btn girl">ĐẶT HÀNG NGAY</button>
+        <button v-scroll-to="{ el: '#info-order' }" type="button" class="btn girl">ĐẶT HÀNG NGAY</button>
       </div>
 
       <div class="col-12 col-md-6 boy text-center">
@@ -37,7 +37,7 @@
           </div>
           <div class="p-2 sale r">Giá 80.000 vnđ</div>
         </div>
-        <button type="button" class="btn boy">ĐẶT HÀNG NGAY</button>
+        <button v-scroll-to="{ el: '#info-order' }" type="button" class="btn boy">ĐẶT HÀNG NGAY</button>
       </div>
     </div>
   </div>
