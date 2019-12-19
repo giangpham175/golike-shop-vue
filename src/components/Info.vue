@@ -4,7 +4,7 @@
     <div class="row order-info">
         <div class="col-12 col-md-4 l">
             <h2 class="info text-center">GIẢM GIÁ NGAY 30%</h2>
-            <img src="@/assets/img/order/order.svg" alt="" style="width: 100%;" class="img-info">
+            <!-- <img src="@/assets/img/order/order.svg" alt="" style="width: 100%;" class="img-info"> -->
         </div>
         <div class="col-12 col-md-8 r">
             <p class="info">Tên</p>
