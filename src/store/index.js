@@ -13,7 +13,17 @@ export default new Vuex.Store({
         boySize: null,
         boyQty: null
     },
-    mutations: {},
+    mutations: {
+        order(state, payload) {
+            state.name = payload.name;
+            state.phone = payload.phone;
+            state.address = payload.address;
+            state.girlSize = payload.girlSize;
+            state.girlQty = payload.girlQty;
+            state.boySize = payload.boySize;
+            state.boyQty = payload.boyQty;
+        }
+    },
     actions: {},
     modules: {}
 })

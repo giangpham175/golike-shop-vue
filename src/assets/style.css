@@ -358,6 +358,9 @@ form.oder-info {
 
 @media screen and (max-width: 544px) {
     /* header */
+    header.container {
+        padding: 10px 0px;
+    }
     img.main {
         width: 90%;
     }
@@ -374,6 +377,9 @@ form.oder-info {
         font-size: 15px;
     }
     /* main */
+    .container.main {
+        padding: 10px 0px;
+    }
     h1.main.text-center {
         padding: 0px 0px 25px 0px;
         font-size: 25px;
