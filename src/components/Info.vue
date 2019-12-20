@@ -14,7 +14,6 @@
         <p class="info">Địa chỉ nhận hàng</p>
         <input type="text" placeholder="Nhập địa chỉ nhận hàng" class="add info" v-model="address" />
 
-        <!-- use-vue-select -->
         <p class="info">Mẫu áo</p>
         <div class="row">
           <div class="col-md-6">
