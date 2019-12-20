@@ -350,6 +350,41 @@ form.oder-info {
 }
 
 
+/* modal-confirm */
+
+.modal-content {
+    border-radius: 20px;
+    background: #F5F5F5;
+}
+
+h4.confirm {
+    margin: 15px 0px 10px 0px;
+    color: black;
+    font-size: 11px;
+    font-weight: 900;
+}
+
+form.info {
+    background-color: white;
+    border-radius: 10px 20px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+form.total {
+    background-color: white;
+    border-radius: 10px 20px;
+    padding: 10px;
+}
+
+.modal-title {
+    color: #0084F8;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
 /* -
   -
   -

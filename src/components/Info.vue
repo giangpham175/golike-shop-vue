@@ -66,7 +66,6 @@
           class="btn info"
           data-toggle="modal"
           data-target="#orderConfirm"
-          @click="order"
         >ĐẶT HÀNG NGAY</button>
       </div>
     </div>
@@ -121,6 +120,7 @@
               class="btn btn-primary"
               style="margin:auto;display:block;"
               data-dismiss="modal"
+              @click="order"
             >XÁC NHẬN</button>
           </div>
         </div>
