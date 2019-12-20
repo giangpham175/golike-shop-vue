@@ -8,9 +8,9 @@ export default new Vuex.Store({
         name: null,
         phone: null,
         address: null,
-        girlSize: null,
+        girlSize: [],
         girlQty: null,
-        boySize: null,
+        boySize: [],
         boyQty: null
     },
     mutations: {

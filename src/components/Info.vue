@@ -32,7 +32,7 @@
             </div>
             <div class="form-group">
               <label for="qty">Số lượng</label>
-              <v-select v-model="girlQty" :options="['1','2','3','4']" class="select"/>
+              <v-select v-model="girlQty" :options="['1','2','3']" class="select"/>
               <!-- <select class="form-control" id="qty" v-model="girlQty">
                 <option>1</option>
                 <option>2</option>
@@ -47,7 +47,7 @@
             </div>
             <div class="form-group">
               <label for="qty">Số lượng</label>
-              <v-select v-model="boyQty" :options="['1','2','3','4']" class="select"/>
+              <v-select v-model="boyQty" :options="['1','2','3']" class="select"/>
             </div>
           </div>
         </div>
@@ -72,11 +72,11 @@ export default {
       address: "",
 
       girlCheck: false,
-      girlSize: "",
+      girlSize: [],
       girlQty: "",
 
       boyCheck: false,
-      boySize: "",
+      boySize: [],
       boyQty: ""
     };
   },
