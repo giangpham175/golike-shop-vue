@@ -4,8 +4,13 @@ import router from './router'
 import store from './store'
 
 import './assets/style.css'
+
 import vueScrollto from 'vue-scrollto'
 Vue.use(vueScrollto)
+
+import vSelect from 'vue-select'
+Vue.component('v-select', vSelect)
+import 'vue-select/dist/vue-select.css';
 
 Vue.config.productionTip = false
 

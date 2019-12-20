@@ -21,39 +21,33 @@
             <input type="checkbox" v-model="girlCheck" /> &nbsp;&nbsp; Mẫu 1 (Nữ)
             <div class="form-group">
               <label for="size">Size</label>
-              <select class="form-control" id="size" v-model="girlSize">
+              <v-select multiple v-model="girlSize" :options="['S','M','L','XL','XXL']" class="select"/>
+              <!-- <select class="form-control" id="size" v-model="girlSize">
                 <option>S</option>
                 <option>M</option>
                 <option>L</option>
                 <option>XL</option>
                 <option>XXL</option>
-              </select>
+              </select> -->
             </div>
             <div class="form-group">
               <label for="qty">Số lượng</label>
-              <select class="form-control" id="qty" v-model="girlQty">
+              <v-select v-model="girlQty" :options="['1','2','3','4']" class="select"/>
+              <!-- <select class="form-control" id="qty" v-model="girlQty">
                 <option>1</option>
                 <option>2</option>
-              </select>
+              </select> -->
             </div>
           </div>
           <div class="col-md-6">
             <input type="checkbox" v-model="boyCheck" /> &nbsp;&nbsp; Mẫu 2 (Nam)
             <div class="form-group">
               <label for="size">Size</label>
-              <select class="form-control" id="size" v-model="boySize">
-                <option>S</option>
-                <option>M</option>
-                <option>L</option>
-                <option>XL</option>
-              </select>
+              <v-select multiple v-model="boySize" :options="['S','M','L','XL']" class="select"/>
             </div>
             <div class="form-group">
               <label for="qty">Số lượng</label>
-              <select class="form-control" id="qty" v-model="boyQty">
-                <option>1</option>
-                <option>2</option>
-              </select>
+              <v-select v-model="boyQty" :options="['1','2','3','4']" class="select"/>
             </div>
           </div>
         </div>
@@ -76,9 +70,11 @@ export default {
       name: "",
       phone: "",
       address: "",
+
       girlCheck: false,
       girlSize: "",
       girlQty: "",
+
       boyCheck: false,
       boySize: "",
       boyQty: ""
@@ -89,3 +85,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.select{
+  background-color: white;
+  border-radius: 10px
+}
+</style>>
